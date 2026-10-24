@@ -1,0 +1,18 @@
+# WC-core regression reference
+# solve_wc(default_wc_params(); tspan=(0.0,200.0), saveat=0.5)
+# generated 2026-06-27T03:44:12.764   Julia 1.12.5
+saveat 0.5
+popdim 1
+t_end 200.0000000000
+final_1 1.4075593437e+01
+final_2 1.9999258675e+01
+final_3 -3.9827256780e-01
+final_4 2.3075142488e+01
+mean_1 1.4026845534e+01
+mean_2 1.9924299798e+01
+mean_3 -3.8392290398e-01
+mean_4 2.3007352775e+01
+std_1 6.7143894488e-01
+std_2 1.0326013181e+00
+std_3 1.3344263715e-01
+std_4 9.7450018846e-01
