@@ -1,0 +1,26 @@
+# ── Julia ────────────────────────────────────────────────
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+/docs/build/
+# Manifest.toml is intentionally NOT ignored: this is a thesis /
+# application artifact, so the pinned environment is kept for
+# reproducibility.
+
+# ── Generated simulation data (regenerable via scripts/) ──
+results/data/*.jld2
+
+# ── Generated figures (regenerable via src/figN_*.jl) ────
+results/figures/*.png
+results/**/*.pdf
+results/*.pdf
+
+# ── Scratch / OS / editor ────────────────────────────────
+*.so
+*.o
+.DS_Store
+Thumbs.db
+
+# Local exploratory / diagnostic scripts (decide keep-or-delete later)
+scratch/
+

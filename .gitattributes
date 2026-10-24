@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.jld2 binary
+*.png binary
+*.pdf binary
+*.mat binary
